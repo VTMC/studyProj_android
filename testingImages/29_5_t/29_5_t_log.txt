@@ -1,0 +1,67 @@
+sorted Contours log : 
+
+t1_1 test...
+sorted contours [0]'s contours Area : 2898137.000000
+sorted contours [1]'s contours Area : 759456.000000
+sorted contours [2]'s contours Area : 738783.500000
+sorted contours [3]'s contours Area : 248343.000000
+sorted contours [4]'s contours Area : 165991.500000
+sorted contours [5]'s contours Area : 93970.500000
+sorted contours [6]'s contours Area : 29368.500000
+sorted contours [7]'s contours Area : 28846.500000
+sorted contours [8]'s contours Area : 25634.500000
+sorted contours [9]'s contours Area : 25025.000000
+
+
+t3_4 test...
+sorted contours [0]'s contours Area : 2169674.000000
+sorted contours [1]'s contours Area : 466630.500000
+sorted contours [2]'s contours Area : 464162.500000
+sorted contours [3]'s contours Area : 440331.500000
+sorted contours [4]'s contours Area : 433778.000000
+sorted contours [5]'s contours Area : 419151.500000
+sorted contours [6]'s contours Area : 94324.000000
+sorted contours [7]'s contours Area : 42085.000000
+sorted contours [8]'s contours Area : 21568.000000
+sorted contours [9]'s contours Area : 19456.000000
+
+
+t9_16 test...
+sorted contours [0]'s contours Area : 1713645.000000
+sorted contours [1]'s contours Area : 839688.500000
+sorted contours [2]'s contours Area : 837641.500000
+sorted contours [3]'s contours Area : 430748.000000
+sorted contours [4]'s contours Area : 418067.500000
+sorted contours [5]'s contours Area : 200895.500000
+sorted contours [6]'s contours Area : 135975.500000
+sorted contours [7]'s contours Area : 94083.500000
+sorted contours [8]'s contours Area : 13982.000000
+sorted contours [9]'s contours Area : 12431.000000
+
+
+t_full test...
+sorted contours [0]'s contours Area : 1242511.000000
+sorted contours [1]'s contours Area : 1241890.000000
+sorted contours [2]'s contours Area : 1160043.000000
+sorted contours [3]'s contours Area : 434058.500000
+sorted contours [4]'s contours Area : 420161.000000
+sorted contours [5]'s contours Area : 134599.500000
+sorted contours [6]'s contours Area : 94615.000000
+sorted contours [7]'s contours Area : 48370.500000
+sorted contours [8]'s contours Area : 33668.500000
+sorted contours [9]'s contours Area : 18192.500000
+
+result (standard - area of analysis) : 
+t1_1 : 
+sorted contours [4]'s contours Area : 165991.500000
+
+t3_4 :
+sorted contours [6]'s contours Area : 94324.000000
+
+t9_16 :
+sorted contours [7]'s contours Area : 94083.500000
+
+t_full :
+sorted contours [6]'s contours Area : 94615.000000
+
+t1_1을 제외한 나머지 3개의 넓이는 대략 비슷하게 나옴. 1대 1 비율에서 값이 더 크게 나온 이유는 이미지 센서를 1대 1에 맞게 자르다 보니 좀 더 줌 된 상태로 사진 촬영이진행되어서 그런 것으로 보여짐. 이 결과는 Z Fold3의 경우이고, 다른 기기일 경우 사진 촬영할 때 어떻게 나오느냐에 따라 다르게 진행될 수도 있음.

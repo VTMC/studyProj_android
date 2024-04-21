@@ -1,0 +1,65 @@
+t1_1 test...
+sorted contours [0]'s contours Area : 3985543.500000
+sorted contours [1]'s contours Area : 1791867.500000
+sorted contours [2]'s contours Area : 1744867.500000
+sorted contours [3]'s contours Area : 391034.500000
+sorted contours [4]'s contours Area : 109797.500000
+sorted contours [5]'s contours Area : 99938.000000
+sorted contours [6]'s contours Area : 59747.500000
+sorted contours [7]'s contours Area : 603.000000
+sorted contours [8]'s contours Area : 508.000000
+sorted contours [9]'s contours Area : 353.000000
+
+
+t3_4 test...
+sorted contours [0]'s contours Area : 2995227.500000
+sorted contours [1]'s contours Area : 1332036.500000
+sorted contours [2]'s contours Area : 1295629.000000
+sorted contours [3]'s contours Area : 459797.500000
+sorted contours [4]'s contours Area : 459770.000000
+sorted contours [5]'s contours Area : 292041.000000
+sorted contours [6]'s contours Area : 74766.500000
+sorted contours [7]'s contours Area : 68177.500000
+sorted contours [8]'s contours Area : 44614.500000
+sorted contours [9]'s contours Area : 383.000000
+
+
+t9_16 test...
+sorted contours [0]'s contours Area : 2247506.000000
+sorted contours [1]'s contours Area : 1144332.500000
+sorted contours [2]'s contours Area : 1114239.000000
+sorted contours [3]'s contours Area : 833584.500000
+sorted contours [4]'s contours Area : 833583.000000
+sorted contours [5]'s contours Area : 250747.000000
+sorted contours [6]'s contours Area : 62183.000000
+sorted contours [7]'s contours Area : 55891.000000
+sorted contours [8]'s contours Area : 37957.000000
+sorted contours [9]'s contours Area : 309.500000
+
+
+t_full test...
+sorted contours [0]'s contours Area : 1379889.500000
+sorted contours [1]'s contours Area : 1240177.500000
+sorted contours [2]'s contours Area : 1239982.000000
+sorted contours [3]'s contours Area : 668517.500000
+sorted contours [4]'s contours Area : 649455.000000
+sorted contours [5]'s contours Area : 146139.500000
+sorted contours [6]'s contours Area : 35748.000000
+sorted contours [7]'s contours Area : 28894.500000
+sorted contours [8]'s contours Area : 23137.000000
+sorted contours [9]'s contours Area : 21851.500000
+
+result (standard - area of analysis) : 
+t1_1 : 
+sorted contours [3]'s contours Area : 391034.500000
+
+t3_4 :
+sorted contours [5]'s contours Area : 292041.000000
+
+t9_16 :
+sorted contours [5]'s contours Area : 250747.000000
+
+t_full :
+sorted contours [5]'s contours Area : 146139.500000
+
+일정한 높이에서 촬영이 진행되지 않을 경우 분석영역의 넓이가 제각각으로 달라진다. 따라서 넓이를 구하게 되면 다르게 나올 수 밖에 없는 것이다. 
