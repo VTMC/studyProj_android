@@ -56,20 +56,31 @@ def detect_contours(path ,img):
 
     return resultContours
 
-def getContourRect(contours, index):
+def getContourRect(img, contours, index):
     contourCornerPoints = cropContour.find_corner_points(contours[index])
+
+    for point in contourCornerPoints:
+        cv.circle(img, point, 5, (255, 0, 0), -1)
+        cv.putText(img, str(point), point, cv.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
     print("contourCornerPoints : ", contourCornerPoints)
 
-    contourTopCenterPoint = (((contourCornerPoints[1][0] + contourCornerPoints[3][0])/2), ((contourCornerPoints[1][1] + contourCornerPoints[3][1])/2))
-    contourBottomCenterPoint = (((contourCornerPoints[0][0] + contourCornerPoints[2][0])/2), ((contourCornerPoints[0][1] + contourCornerPoints[2][1])/2))
+    contourTopCenterPoint = (int((contourCornerPoints[1][0] + contourCornerPoints[2][0])/2), int((contourCornerPoints[1][1] + contourCornerPoints[2][1])/2))
+    contourBottomCenterPoint = (int((contourCornerPoints[0][0] + contourCornerPoints[3][0])/2), int((contourCornerPoints[0][1] + contourCornerPoints[3][1])/2))
 
     print("contourTopCenterPoint : ", contourTopCenterPoint)
     print("contourBottomCenterPoint : ", contourBottomCenterPoint)
 
+    cv.circle(img, contourTopCenterPoint, 5, (0, 0, 255), -1)
+    cv.putText(img, str(contourTopCenterPoint), contourTopCenterPoint, cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+    cv.circle(img, contourBottomCenterPoint, 5, (0, 0, 255), -1)
+    cv.putText(img, str(contourBottomCenterPoint), contourBottomCenterPoint, cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
-path = "D:/studyProj_android/traceUrine_NewAlgorithm/testingImages/t/"
-outputPath = "D:/studyProj_android/traceUrine_NewAlgorithm/testingImages/croppedImg/"
+    return img
+
+
+path = "E:/projects/python/traceUrine_NewAlgorithm/testingImages/t/"
+outputPath = "E:/projects/python/traceUrine_NewAlgorithm/testingImages/croppedImg/"
 
 img_t1_1 = cv.imread(path+"t1_1.jpg")
 img_t3_4 = cv.imread(path+"t3_4.jpg")
@@ -93,26 +104,26 @@ detectedContours_t_full = detect_contours(outputPath+"contoursImg_t_full.jpg",im
 cropped_t_full = cropContour.crop_contour(img_t_full, detectedContours_t_full, 2, 1000, 2000)
 cv.imwrite(outputPath+"cropped_t_full.jpg", cropped_t_full)
 
-path = "D:/studyProj_android/traceUrine_NewAlgorithm/testingImages/29_5_t/"
+path = "E:/projects/python/traceUrine_NewAlgorithm/testingImages/29_5_t/"
 
 img_t1_1 = cv.imread(path+"29_5_t1_1.jpg")
 img_t3_4 = cv.imread(path+"29_5_t3_4.jpg")
 img_t9_16 = cv.imread(path+"29_5_t9_16.jpg")
 img_t_full = cv.imread(path+"29_5_t_full.jpg")
 
-print("t1_1 test...")
+print("\n\n29_5_t1_1 test...")
 detectedContours_29_5_t1_1 = detect_contours(outputPath+"contoursImg_29_5_t1_1.jpg",img_t1_1)
 cropped_29_5_t1_1 = cropContour.crop_contour(img_t1_1, detectedContours_29_5_t1_1, 2, 1000, 2000)
 cv.imwrite(outputPath+"cropped_29_5_t1_1.jpg", cropped_29_5_t1_1)
-print("\n\nt3_4 test...")
+print("\n\n29_5_t3_4 test...")
 detectedContours_29_5_t3_4 = detect_contours(outputPath+"contoursImg_29_5_t3_4.jpg",img_t3_4)
 cropped_29_5_t3_4 = cropContour.crop_contour(img_t3_4, detectedContours_29_5_t3_4, 3, 1000, 2000)
 cv.imwrite(outputPath+"cropped_29_5_t3_4.jpg", cropped_29_5_t3_4)
-print("\n\nt9_16 test...")
+print("\n\n29_5_t9_16 test...")
 detectedContours_29_5_t9_16 = detect_contours(outputPath+"contoursImg_29_5_t9_16.jpg",img_t9_16)
 cropped_29_5_t9_16 = cropContour.crop_contour(img_t9_16, detectedContours_29_5_t9_16, 2, 1000, 2000)
 cv.imwrite(outputPath+"cropped_29_5_t9_16.jpg", cropped_29_5_t9_16)
-print("\n\nt_full test...")
+print("\n\n29_5_t_full test...")
 detectedContours_29_5_t_full = detect_contours(outputPath+"contoursImg_29_5_t_full.jpg",img_t_full)
 cropped_29_5_t_full = cropContour.crop_contour(img_t_full, detectedContours_29_5_t_full, 2, 1000, 2000)
 cv.imwrite(outputPath+"cropped_29_5_t_full.jpg", cropped_29_5_t_full)
@@ -135,14 +146,23 @@ detectedContours_cropped_29_5_t3_4 = detect_contours(outputPath+"contoursImg_cro
 detectedContours_cropped_29_5_t9_16 = detect_contours(outputPath+"contoursImg_cropped_29_5_t9_16.jpg",croppedImg_29_5_t9_16)
 detectedContours_cropped_29_5_t_full = detect_contours(outputPath+"contoursImg_cropped_29_5_t_full.jpg",croppedImg_29_5_t_full)
 
-getContourRect(detectedContours_cropped_t1_1, 1)
-getContourRect(detectedContours_cropped_t3_4, 1)
-getContourRect(detectedContours_cropped_t9_16, 1)
-getContourRect(detectedContours_cropped_t_full, 1)
-getContourRect(detectedContours_cropped_29_5_t1_1, 1)
-getContourRect(detectedContours_cropped_29_5_t3_4, 1)
-getContourRect(detectedContours_cropped_29_5_t9_16, 1)
-getContourRect(detectedContours_cropped_29_5_t_full, 1)
+pointed_cropped_t1_1 = getContourRect(croppedImg_t1_1, detectedContours_cropped_t1_1, 1)
+pointed_cropped_t3_4 = getContourRect(croppedImg_t3_4, detectedContours_cropped_t3_4, 1)
+pointed_cropped_t9_16 = getContourRect(croppedImg_t9_16, detectedContours_cropped_t9_16, 1)
+pointed_cropped_t_full = getContourRect(croppedImg_t_full, detectedContours_cropped_t_full, 1)
+pointed_cropped_29_5_t1_1 = getContourRect(croppedImg_29_5_t1_1, detectedContours_cropped_29_5_t1_1, 1)
+pointed_cropped_29_5_t3_4 = getContourRect(croppedImg_29_5_t3_4, detectedContours_cropped_29_5_t3_4, 1)
+pointed_cropped_29_5_t9_16 = getContourRect(croppedImg_29_5_t9_16, detectedContours_cropped_29_5_t9_16, 1)
+pointed_cropped_29_5_t_full = getContourRect(croppedImg_29_5_t_full, detectedContours_cropped_29_5_t_full, 1)
+
+cv.imwrite(outputPath+"pointed_cropped_t1_1.jpg", pointed_cropped_t1_1)
+cv.imwrite(outputPath+"pointed_cropped_t3_4.jpg", pointed_cropped_t3_4)
+cv.imwrite(outputPath+"pointed_cropped_t9_16.jpg", pointed_cropped_t9_16)
+cv.imwrite(outputPath+"pointed_cropped_t_full.jpg", pointed_cropped_t_full)
+cv.imwrite(outputPath+"pointed_cropped_29_5_t1_1.jpg", pointed_cropped_29_5_t1_1)
+cv.imwrite(outputPath+"pointed_cropped_29_5_t3_4.jpg", pointed_cropped_29_5_t3_4)
+cv.imwrite(outputPath+"pointed_cropped_29_5_t9_16.jpg", pointed_cropped_29_5_t9_16)
+cv.imwrite(outputPath+"pointed_cropped_29_5_t_full.jpg", pointed_cropped_29_5_t_full)
 
 # path = "D:/studyProj_android/traceUrine_NewAlgorithm/testingImages/traceUrine_testImg/"
 

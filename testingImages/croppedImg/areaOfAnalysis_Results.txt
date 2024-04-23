@@ -1,0 +1,8 @@
+contourCornerPoints :  [(347, 1733), (652, 267), (344, 270), (653, 1730)]	contourTopCenterPoint :  (652.5, 998.5)	contourBottomCenterPoint :  (345.5, 1001.5)
+contourCornerPoints :  [(347, 1734), (652, 263), (348, 263), (654, 1730)]	contourTopCenterPoint :  (653.0, 996.5)	contourBottomCenterPoint :  (347.5, 998.5)
+contourCornerPoints :  [(347, 1733), (652, 265), (347, 265), (654, 1729)]	contourTopCenterPoint :  (653.0, 997.0)	contourBottomCenterPoint :  (347.0, 999.0)
+contourCornerPoints :  [(347, 1733), (651, 268), (348, 268), (653, 1731)]	contourTopCenterPoint :  (652.0, 999.5)	contourBottomCenterPoint :  (347.5, 1000.5)
+contourCornerPoints :  [(348, 1732), (652, 269), (346, 271), (654, 1729)]	contourTopCenterPoint :  (653.0, 999.0)	contourBottomCenterPoint :  (347.0, 1001.5)
+contourCornerPoints :  [(349, 1732), (652, 270), (345, 272), (653, 1729)]	contourTopCenterPoint :  (652.5, 999.5)	contourBottomCenterPoint :  (347.0, 1002.0)
+contourCornerPoints :  [(348, 1730), (652, 269), (348, 269), (653, 1728)]	contourTopCenterPoint :  (652.5, 998.5)	contourBottomCenterPoint :  (348.0, 999.5)
+contourCornerPoints :  [(349, 1732), (652, 269), (345, 272), (654, 1728)]	contourTopCenterPoint :  (653.0, 998.5)	contourBottomCenterPoint :  (347.0, 1002.0)
