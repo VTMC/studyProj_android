@@ -1,0 +1,193 @@
+A80_test1 test... <- 분석영역이 잘려져서 제외
+sorted contours [0]'s contours Area : 444685.500000
+sorted contours [1]'s contours Area : 437419.000000
+sorted contours [2]'s contours Area : 436189.000000
+sorted contours [3]'s contours Area : 131651.500000
+sorted contours [4]'s contours Area : 68382.000000
+sorted contours [5]'s contours Area : 664.500000
+sorted contours [6]'s contours Area : 518.500000
+sorted contours [7]'s contours Area : 491.000000
+sorted contours [8]'s contours Area : 488.000000
+sorted contours [9]'s contours Area : 363.000000
+
+
+A80_test2 test...
+sorted contours [0]'s contours Area : 1369895.500000
+- sorted contours [1]'s contours Area : 357600.500000
+sorted contours [2]'s contours Area : 286079.000000
+sorted contours [3]'s contours Area : 121087.000000
+sorted contours [4]'s contours Area : 64071.000000
+sorted contours [5]'s contours Area : 8440.500000
+sorted contours [6]'s contours Area : 707.500000
+sorted contours [7]'s contours Area : 630.000000
+sorted contours [8]'s contours Area : 578.500000
+sorted contours [9]'s contours Area : 544.500000
+
+
+A80_test3 test...
+sorted contours [0]'s contours Area : 1382741.500000
+- sorted contours [1]'s contours Area : 382470.500000
+sorted contours [2]'s contours Area : 169731.000000
+sorted contours [3]'s contours Area : 52440.000000
+sorted contours [4]'s contours Area : 7660.000000
+sorted contours [5]'s contours Area : 7000.500000
+sorted contours [6]'s contours Area : 3123.500000
+sorted contours [7]'s contours Area : 1473.500000
+sorted contours [8]'s contours Area : 994.500000
+sorted contours [9]'s contours Area : 560.000000
+
+
+S21U_test1 test...
+sorted contours [0]'s contours Area : 1605089.000000
+- sorted contours [1]'s contours Area : 401287.000000
+sorted contours [2]'s contours Area : 327527.500000
+sorted contours [3]'s contours Area : 129068.000000
+sorted contours [4]'s contours Area : 70751.500000
+sorted contours [5]'s contours Area : 9828.000000
+sorted contours [6]'s contours Area : 1904.500000
+sorted contours [7]'s contours Area : 932.000000
+sorted contours [8]'s contours Area : 829.000000
+sorted contours [9]'s contours Area : 804.000000
+
+
+S21U_test2 test...
+sorted contours [0]'s contours Area : 1621244.000000
+- sorted contours [1]'s contours Area : 425703.000000
+sorted contours [2]'s contours Area : 211463.000000
+sorted contours [3]'s contours Area : 75615.000000
+sorted contours [4]'s contours Area : 2011.000000
+sorted contours [5]'s contours Area : 1562.000000
+sorted contours [6]'s contours Area : 976.000000
+sorted contours [7]'s contours Area : 913.000000
+sorted contours [8]'s contours Area : 752.500000
+sorted contours [9]'s contours Area : 515.000000
+
+
+S21U_test3 test...
+sorted contours [0]'s contours Area : 1622661.500000
+- sorted contours [1]'s contours Area : 430439.500000
+sorted contours [2]'s contours Area : 362147.500000
+sorted contours [3]'s contours Area : 130690.500000
+sorted contours [4]'s contours Area : 70893.000000
+sorted contours [5]'s contours Area : 3693.500000
+sorted contours [6]'s contours Area : 856.000000
+sorted contours [7]'s contours Area : 519.500000
+sorted contours [8]'s contours Area : 479.000000
+sorted contours [9]'s contours Area : 478.500000
+
+
+ZFold3_1_test1 test...
+sorted contours [0]'s contours Area : 1426072.500000
+- sorted contours [1]'s contours Area : 433506.000000
+sorted contours [2]'s contours Area : 357116.000000
+sorted contours [3]'s contours Area : 138100.000000
+sorted contours [4]'s contours Area : 75825.500000
+sorted contours [5]'s contours Area : 945.500000
+sorted contours [6]'s contours Area : 848.500000
+sorted contours [7]'s contours Area : 827.500000
+sorted contours [8]'s contours Area : 756.000000
+sorted contours [9]'s contours Area : 634.000000
+
+
+ZFold3_1_test2 test...
+sorted contours [0]'s contours Area : 1425303.000000
+- sorted contours [1]'s contours Area : 440697.500000
+sorted contours [2]'s contours Area : 361710.000000
+sorted contours [3]'s contours Area : 141200.000000
+sorted contours [4]'s contours Area : 77154.000000
+sorted contours [5]'s contours Area : 1784.500000
+sorted contours [6]'s contours Area : 814.000000
+sorted contours [7]'s contours Area : 764.000000
+sorted contours [8]'s contours Area : 680.500000
+sorted contours [9]'s contours Area : 597.500000
+
+
+ZFold3_1_test3 test...
+sorted contours [0]'s contours Area : 1423620.500000
+- sorted contours [1]'s contours Area : 377251.000000
+sorted contours [2]'s contours Area : 306909.500000
+sorted contours [3]'s contours Area : 123411.500000
+sorted contours [4]'s contours Area : 65731.000000
+sorted contours [5]'s contours Area : 774.000000
+sorted contours [6]'s contours Area : 700.000000
+sorted contours [7]'s contours Area : 560.000000
+sorted contours [8]'s contours Area : 491.000000
+sorted contours [9]'s contours Area : 439.500000
+
+
+ZFold3_2_test1 test...
+sorted contours [0]'s contours Area : 794795.500000
+- sorted contours [1]'s contours Area : 456459.500000
+sorted contours [2]'s contours Area : 376906.000000
+sorted contours [3]'s contours Area : 144391.500000
+sorted contours [4]'s contours Area : 79525.500000
+sorted contours [5]'s contours Area : 1029.500000
+sorted contours [6]'s contours Area : 883.000000
+sorted contours [7]'s contours Area : 674.500000
+sorted contours [8]'s contours Area : 580.000000
+sorted contours [9]'s contours Area : 460.500000
+
+
+ZFold3_2_test2 test...
+sorted contours [0]'s contours Area : 795086.500000
+- sorted contours [1]'s contours Area : 443245.500000
+sorted contours [2]'s contours Area : 365639.500000
+sorted contours [3]'s contours Area : 140838.000000
+sorted contours [4]'s contours Area : 77886.000000
+sorted contours [5]'s contours Area : 842.500000
+sorted contours [6]'s contours Area : 828.000000
+sorted contours [7]'s contours Area : 715.000000
+sorted contours [8]'s contours Area : 624.500000
+sorted contours [9]'s contours Area : 534.500000
+
+
+ZFold3_2_test3 test...
+sorted contours [0]'s contours Area : 797077.000000
+- sorted contours [1]'s contours Area : 432719.000000
+sorted contours [2]'s contours Area : 359957.500000
+sorted contours [3]'s contours Area : 128996.500000
+sorted contours [4]'s contours Area : 59602.000000
+sorted contours [5]'s contours Area : 4838.500000
+sorted contours [6]'s contours Area : 3473.500000
+sorted contours [7]'s contours Area : 2332.000000
+sorted contours [8]'s contours Area : 928.000000
+sorted contours [9]'s contours Area : 865.500000
+
+
+Y700_test1 test... <- 분석영역이 잘려져서 제외
+sorted contours [0]'s contours Area : 387353.000000
+sorted contours [1]'s contours Area : 149883.500000
+sorted contours [2]'s contours Area : 143270.000000
+sorted contours [3]'s contours Area : 135636.000000
+sorted contours [4]'s contours Area : 67990.000000
+sorted contours [5]'s contours Area : 1918.500000
+sorted contours [6]'s contours Area : 1292.000000
+sorted contours [7]'s contours Area : 1170.500000
+sorted contours [8]'s contours Area : 895.000000
+sorted contours [9]'s contours Area : 877.000000
+
+
+Y700_test2 test...
+sorted contours [0]'s contours Area : 749286.500000
+- sorted contours [1]'s contours Area : 337722.000000
+sorted contours [2]'s contours Area : 268558.500000
+sorted contours [3]'s contours Area : 114816.500000
+sorted contours [4]'s contours Area : 58961.500000
+sorted contours [5]'s contours Area : 512.000000
+sorted contours [6]'s contours Area : 372.000000
+sorted contours [7]'s contours Area : 301.000000
+sorted contours [8]'s contours Area : 270.000000
+sorted contours [9]'s contours Area : 249.000000
+
+
+Y700_test3 test...
+sorted contours [0]'s contours Area : 748894.000000
+- sorted contours [1]'s contours Area : 315793.000000
+sorted contours [2]'s contours Area : 250156.000000
+sorted contours [3]'s contours Area : 108558.000000
+sorted contours [4]'s contours Area : 55137.500000
+sorted contours [5]'s contours Area : 454.000000
+sorted contours [6]'s contours Area : 396.000000
+sorted contours [7]'s contours Area : 337.500000
+sorted contours [8]'s contours Area : 269.500000
+sorted contours [9]'s contours Area : 267.000000
