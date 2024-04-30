@@ -43,6 +43,8 @@ def crop_contour(img ,descendedOrderedContours, index, targetWidth, targetHeight
 
     targetContourPoints = find_corner_points(targetContour)
 
+    print(str(targetContourPoints))
+
     targetPoints = np.array([
         [0, targetHeight],
         [targetWidth, 0],
